@@ -1,0 +1,27 @@
+{
+  "name": "team-generator-with-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest -coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sebascrab/Team-Generator-With-Node.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sebascrab/Team-Generator-With-Node.js/issues"
+  },
+  "homepage": "https://github.com/Sebascrab/Team-Generator-With-Node.js#readme",
+  "dependencies": {
+    "inquirer": "^8.2.5",
+    "jest": "^29.2.2"
+  }
+}
