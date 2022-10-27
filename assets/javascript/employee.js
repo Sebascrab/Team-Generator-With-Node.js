@@ -15,7 +15,7 @@ class Worker {
         return "Worker";
     }
 
-    returnidNumr() {
+    returnidNum() {
         return this.idNum;
     }
 
