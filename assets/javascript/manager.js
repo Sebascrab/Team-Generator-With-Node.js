@@ -1,7 +1,7 @@
 
 
 // imports the Worker Class: 
-const Worker = require('./worker');
+const Worker = require('./employee');
 
 class Manager extends Worker {
     // addes Office Number to the constructor 

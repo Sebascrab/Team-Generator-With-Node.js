@@ -1,7 +1,7 @@
 
 
 // requires parent class Worker
-const Worker = require('./worker');
+const Worker = require('./employee');
 
 class Engineer extends Worker {
     // addes GitHub username to the constructor

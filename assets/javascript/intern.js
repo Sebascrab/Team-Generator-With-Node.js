@@ -1,7 +1,7 @@
 
 
 // requires worker parent class
-const Worker = require('./worker');
+const Worker = require('./employee');
 
 class Intern extends Worker {
     // addes School Name to the constructor

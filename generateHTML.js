@@ -12,7 +12,7 @@ function managerHtml(team) {
             <div class="card-content is-size-5">
                 <ul class="list-group">
                     <li class="list-group-item has-text-weight-bold">ID: ${element.idNum}</li> 
-                    <li class="list-group-item has-text-weight-bold">Email: ${element.email}</li> 
+                    <li class="list-group-item has-text-weight-bold">Email: <a href="malito:alexanders.tischner@outlook.com">${element.email}</a></li> 
                     <li class="list-group-item has-text-weight-bold">Office Number: ${element.officeNum}</li> 
                 </ul>
             </div>
@@ -35,8 +35,8 @@ function engineerHtml(team) {
             <div class="card-content is-size-5">
                 <ul class="list-group">
                     <li class="list-group-item has-text-weight-bold">ID: ${element.idNum}</li> 
-                    <li class="list-group-item has-text-weight-bold">Email: ${element.email}</li> 
-                    <li class="list-group-item has-text-weight-bold">Github: ${element.github}</li> 
+                    <li class="list-group-item has-text-weight-bold">Email: <a href="malito:alexanders.tischner@outlook.com">${element.email}</a></li> 
+                    <li class="list-group-item has-text-weight-bold">Github: <a href="https://github.com/Sebascrab" target="_blank">${element.github}</a></li> 
                 </ul>
             </div>
         </div>
@@ -57,7 +57,7 @@ function internHtml(team) {
             <div class="card-content is-size-5">
                 <ul class="list-group">
                     <li class="list-group-item has-text-weight-bold">ID: ${element.idNum}</li> 
-                    <li class="list-group-item has-text-weight-bold">Email: ${element.email}</li> 
+                    <li class="list-group-item has-text-weight-bold">Email: <a href="malito:alexanders.tischner@outlook.com">${element.email}</a></li>  
                     <li class="list-group-item has-text-weight-bold">School: ${element.school}</li> 
                 </ul>
             </div>
