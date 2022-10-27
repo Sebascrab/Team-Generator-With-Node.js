@@ -11,7 +11,7 @@ class Intern extends Worker {
     }
 
     returnTitle() {
-        return 'Inter';
+        return 'Intern';
     }
 
     returnSchoolName() {

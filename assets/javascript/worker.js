@@ -5,7 +5,7 @@
 class Worker {
     // returns the ID Number, Email, Name, and also title of the worker. 
     constructor(idNum, email, name) {
-        this.idNumber = idNum;
+        this.idNum = idNum;
         this.name = name;
         this.email = email;
 

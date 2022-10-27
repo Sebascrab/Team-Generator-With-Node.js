@@ -19,4 +19,4 @@ class Manager extends Worker {
     }
 };
 
-module.exports = 'Manager';
+module.exports = Manager;
