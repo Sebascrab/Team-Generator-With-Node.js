@@ -10,6 +10,7 @@ const Intern = require('./assets/javascript/intern');
 
 const path = require('path');
 const inquirer = require('inquirer');
+const fsAsync = require('fs/promises');
 
 const questions = [
   {
@@ -35,8 +36,13 @@ const questions = [
   },
 ];
 
-// function to prompt user to answer questions: 
+// function to write HTML file
+function writeToFile(fileName, data) {
+    fsAsync.writeFile(path.join(process.cwd(), fileName), data)
+}
 
+
+// function to prompt user to answer questions: 
 function promptUser() {
     inquirer
     .prompt(
@@ -45,9 +51,40 @@ function promptUser() {
 
     // sending answers and calling generateHTML function from generateHTML.js
     .then((answers) => {
+        inquirer
+        .prompt([
+            {
+                when: () => answers.Title === 'Engineer', 
+                type: 'input', 
+                name: 'Github Username',
+                message: 'What is their Github username?', 
+                
+            }, 
+            {
+                when: () => answers.Title === 'Intern', 
+                type: 'input', 
+                name: 'School Name', 
+                message: 'What is the name of their school?',
+            }, 
+            {
+                when: () => answers.Title === 'Manager', 
+                type: 'input', 
+                name: 'Office Number', 
+                message: 'What is their office number?'
+            },
+
+
+
+           
+
+        ])
+
+
         writeToFile('index.html', generateHTML({...answers}));
     })
 }
+
+
 
 function init() {
     promptUser()

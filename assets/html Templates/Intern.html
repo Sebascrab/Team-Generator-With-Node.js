@@ -1,14 +1,14 @@
 <div class="column is-one-third">
     <div class="card-content has-background-warning-light worker-card">
         <div class="card-title has-text-centered is-size-3 has-background-info">
-            Sam
+            {{ name }}
         </div>
-        <div class="card-header-title is-size-4">Intern</div>
+        <div class="card-header-title is-size-4"><i class="fa-solid fa-phone">&#160;</i>{{ title }}</div>
         <div class="card-content is-size-5">
             <ul class="list-group">
-                <li class="list-group-item has-text-weight-bold">ID:</li>600076
-                <li class="list-group-item has-text-weight-bold">Email:</li> alexanders.tischner@outlook.com
-                <li class="list-group-item has-text-weight-bold">School:</li> University Utah
+                <li class="list-group-item has-text-weight-bold">ID:</li>{{ id }}
+                <li class="list-group-item has-text-weight-bold">Email:</li> {{ email }}
+                <li class="list-group-item has-text-weight-bold">School:</li> {{ schoolName }}
             </ul>
         </div>
     </div>
