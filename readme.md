@@ -20,21 +20,27 @@
   ## Name: 
 
   Alexander Tischner
+  
   ## Installation 
 
   no installation
+  
   ## Contributors 
 
   No instructions for future contributions.
+  
   ## Usage 
 
   Open intergrated terminal from index.js and run node index.js in the command line. Follow prompts to enter in worker information.  
+  
   ## Tests 
 
   Open any of the files in the javascript folder in intergrated terminal. Enter npm test to run tests using jest. 
+  
   ## License 
  
   This project is protected by the MIT license.
+  
   ## Questions 
 
   Github: [Sebascrab](https://github.com/Sebascrab) 
@@ -43,5 +49,7 @@
 
 
 ![Image of Team Profile Generator Project](assets/images/Team%20Profile%20Generator%20With%20Node.js.png)
+
+Link To Video: https://drive.google.com/file/d/19Sz39bsVk171Iejn_dEj8CkpUQwoyqr-/view
   
 
